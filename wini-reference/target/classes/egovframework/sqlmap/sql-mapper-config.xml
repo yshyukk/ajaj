@@ -7,3 +7,4 @@
 		<typeAlias alias="egovMap" type="egovframework.rte.psl.dataaccess.util.EgovMap"/>			
     </typeAliases>
 </configuration>
+
