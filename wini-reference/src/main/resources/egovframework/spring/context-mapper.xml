@@ -13,8 +13,10 @@
 	</bean>
 
 	<!-- MapperConfigurer setup for MyBatis Database Layer with @Mapper("deptMapper") in DeptMapper Interface -->
- 	<bean class="org.egovframe.rte.psl.dataaccess.mapper.MapperConfigurer">
+ 	<!-- <bean class="egovframe.rte.psl.dataaccess.mapper.MapperConfigurer">
+		<property name="basePackage" value="egovframework.wini.**.service" />
+	</bean> -->
+    <bean class="egovframework.rte.psl.dataaccess.mapper.MapperConfigurer">
 		<property name="basePackage" value="egovframework.wini.**.service" />
 	</bean>
-    
 </beans>

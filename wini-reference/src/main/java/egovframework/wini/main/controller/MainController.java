@@ -18,10 +18,10 @@ public class MainController {
 	
 	@RequestMapping(value ="/main.do")
 	public String mainPage(Model model) {
-			List<MainVO> list = mService.getList();
+			/*List<MainVO> list = mService.getList();
 			System.out.println("=====================");
 			System.out.println(list);
-			model.addAttribute("list", list);
+			model.addAttribute("list", list);*/
 		return "views/main/mainPage";
 	}
 }

@@ -4,6 +4,6 @@
 <configuration>
     <typeAliases>
 		<typeAlias alias="mainVO" type="egovframework.wini.main.vo.MainVO"/>
-					
+		<typeAlias alias="egovMap" type="egovframework.rte.psl.dataaccess.util.EgovMap"/>			
     </typeAliases>
 </configuration>
